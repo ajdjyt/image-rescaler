@@ -1,10 +1,14 @@
 # Image Rescaler
 Can upscale or downscale images  
-## Dependencies:    
-## Running:   
-Place main.py and func.py in the same directory  
-run by  
+## Dependencies      
+This project depends on the pillow library. To install use  
 ```
-python.exe main.py  
+python -m pip install -U pillow
 ```
-## Output:  
+## Running  
+Run by  
+```
+python main.py  
+```
+## Output  
+Output is given as a fil of whatever img type the user wants.
